@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "github.com/Hidayathamir/protobuf/gooutgrpc";
+
+service ErajolBike {
+    rpc OrderDriver(ReqErajolBikeOrderDriver) returns (ResErajolBikeOrderDriver) {}
+}
+
+message ReqErajolBikeOrderDriver {
+    uint64 customer_id = 1;
+    uint64 driver_id = 2;
+    int64  price = 3;
+}
+
+message ResErajolBikeOrderDriver {
+    uint64 order_id = 1;
+}
