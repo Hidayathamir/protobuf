@@ -4,7 +4,7 @@
 // - protoc             v3.12.4
 // source: gocheck/digital_wallet.proto
 
-package gocheck
+package gocheckgrpc
 
 import (
 	context "context"

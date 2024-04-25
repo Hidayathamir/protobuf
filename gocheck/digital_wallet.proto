@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Hidayathamir/protobuf/gocheck";
+option go_package = "github.com/Hidayathamir/protobuf/gocheckgrpc";
 
 service DigitalWallet {
     rpc Transfer(ReqDigitalWalletTransfer) returns (ResDigitalWalletTransfer) {}
