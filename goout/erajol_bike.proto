@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Hidayathamir/protobuf/gooutgrpc";
+option go_package = "github.com/Hidayathamir/protobuf/protobufgoout";
 
 service ErajolBike {
     rpc OrderDriver(ReqErajolBikeOrderDriver) returns (ResErajolBikeOrderDriver) {}

@@ -4,7 +4,7 @@
 // - protoc             v3.12.4
 // source: goout/erajol_bike.proto
 
-package gooutgrpc
+package protobufgoout
 
 import (
 	context "context"
